@@ -1,0 +1,23 @@
+{
+  "name": "corner-cli",
+  "version": "1.0.0",
+  "description": "corner-cli",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "corner-cli": "src/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli"
+  ],
+  "author": "zzd",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^15.0.0",
+    "inquirer": "^14.0.2",
+    "ora": "^9.4.0"
+  }
+}
