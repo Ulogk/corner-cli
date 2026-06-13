@@ -27,12 +27,12 @@ export const downloadTemp = async (branch, name) => {
     // 显示下载模板的进度提示
     let spinner = ora('正在下载模板...').start()
     // 模板仓库地址
-    // const repoUrl = 'https://gitee.com/zhao-zhide/moyu-cli.git'
+    const repoUrl = 'https://gitee.com/zhao-zhide/moyu-cli.git'
     try{
         // 要执行的命令
-        // const command = `git clone -b ${branch} ${repoUrl} ${name}`
+        const command = `git clone -b ${branch} ${repoUrl} ${name}`
         // 执行命令
-        // await execPromise(command)
+        await execPromise(command)
         // 下载模板成功后提示
         spinner.succeed('模板下载完成')
         // 下载模板成功后停止显示进度提示

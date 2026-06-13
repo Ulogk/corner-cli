@@ -76,19 +76,5 @@ program.command('create <projectName>')
     })
 })
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// 解析命令行参数，必须要加
 program.parse(process.argv)
